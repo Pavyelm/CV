@@ -1,0 +1,295 @@
+# Page settings
+
+baseURL = "https://CV.github.io/"
+languageCode = "en"
+title = "cv-pavyel"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Pavyer"
+    description = "DevResume - Bootstrap 4 Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Pavyer Mashayeke"
+        tagline = "Systemutvecklare"
+        avatar = "avatar.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Göteborg"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+4676 2149555"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "pavyel.m@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.techkings.se"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "kompetenser"
+        [[params.skills.list.items]]
+        details = "JavaScript"
+        [[params.skills.list.items]]
+        details = "Python/PHP"
+        [[params.skills.list.items]]
+        details = "Node.js"
+        [[params.skills.list.items]]
+        details = "MySQL"
+        [[params.skills.list.items]]
+        details = "Android"
+        [[params.skills.list.items]]
+        details = "GIS"
+
+        #[[params.skills.list]]
+       # title = "Professional"
+        #[[params.skills.list.items]]
+       # details = "Effective communication"
+       # [[params.skills.list.items]]
+       # details = "Team player"
+      #  [[params.skills.list.items]]
+       # details = "Strong problem solver"
+       # [[params.skills.list.items]]
+       # details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Kandidatexamen inom Informatik"
+        university = "Högskolan dalarna"
+        dates = "2017 - 2021"
+       # [[params.education.list]]
+       # degree = "BSc Maths and Physics"
+       # university = "Imperial College London"
+       # dates = "2007 - 2010"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Svenska"
+        level = "Modersmål"
+        [[params.languages.list]]
+        name = "Engelska"
+        level = "flytande"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Hårt arbetande med stark driv, lojalitet och stor ambition för problemlösning och teknik. Upplevs som en trygg och lugn kille även i stressiga miljöer."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+       # [[params.experience.list]]
+       # title = ""
+       # dates = "2021 - Present"
+       # company = "Techkings"
+       # details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+       # [[params.experience.list.items]]
+       # details = "Lorem ipsum dolor sit amet, consectetuer."
+       # [[params.experience.list.items]]
+       # details = "Aenean commodo ligula eget dolor."
+       # [[params.experience.list.items]]
+       # details = "Etiam ultricies nisi vel augue."
+
+        [[params.experience.list]]
+        title = "Butikssäljare"
+        dates = "2017 - 2020"
+        company = "Cirkle K"
+        details = "Helgarbete vid sidan av studierna. Jobbet har gett mig stor förståelse för kundperspektivet och vikten av service. Då arbetet innebar långa dagar ensam i butik, har min självständighet spelat stor roll, där jag behövt ta många egna initiativ för att hålla butiken i gott skick med hög servicegrad."
+      #  [[params.experience.list.items]]
+      #  details = "Lorem ipsum dolor sit amet, consectetuer."
+      #  [[params.experience.list.items]]
+      #  details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Butiksmedarbetare"
+        dates = "2016 & 2017"
+        company = "Cinderella, Stockholm"
+        details = "Lagerarbete på fartyget Cinderella, där uppgifterna var att packa upp och organisera varor. Då jag även ansvarade för nya medarbetare mitt andra år, fick jag också testa på mina ledaregenskaper och kommunikativa förmåga. Trots att jobbet innebar högt tempo och långa arbetspass, passade det min personlighet och driv."
+
+        [[params.experience.list]]
+        title = "Trafikdirigering kring asfaltering"
+        dates = "2013 - 2016"
+        company = "Viaductia/Vägjobb AB, Örebro"
+        details = "Ansvarig för skyltning, planering och personalplacering. Jobbet innebar tungt arbete, långa pass och krävande arbetsmiljö. Här spelade min planering, helhetstänk och tålamod stor roll i arbetet. "
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
+
+
+
